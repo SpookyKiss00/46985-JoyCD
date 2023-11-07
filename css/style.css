@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+/* Utilizar esto para definir valores iniciales "Reseteo de valores del navegador */
+
+*{
+    font-family:'Young Serif', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body{
+    background-color: rgb(0, 50, 73);
+    width: 100%;
+}
+
+h1 {
+    color: white;
+}
+
+/* Header------------------------------------- */
+    /* JoyCD */
+header {
+    display: flex;
+    Align-items: center;
+    background-color: rgb(0, 50, 73);
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+    /* Buscador de disco */
+header h1 a{
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+}
+
+header form {
+    text-align: center;
+}
+
+    /* Navegador */
+
+header ul{
+    text-align: right;
+    color: white;
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+}
+header li {
+    list-style-type: none;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header form label {
+    color: white;
+}
+header form input {
+    color: rgb(0, 0, 0);
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Main------------------------------------- */
+
+#laTienda {
+    width: 300px;
+}
+
+#mainIndex {
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+
+#mainIndex p{
+    padding-top: 20px;
+}
+#mainIndex h2{
+    padding-top: 20px;
+}
+#mainIndex a{
+    text-decoration: none;
+    color: rgb(4, 116, 168);
+}
+
+
+main {
+    background-color: rgb(133, 233, 255);
+    text-align: center;
+}
+
+main form{
+    color: black;
+    text-align: center;
+}
+
+main ul{
+    padding-top: 30px;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+main img {
+    width: 200px;
+}
+
+main label {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main iframe{
+    width: 400px;
+    height: 400px;
+}
+
+#registroBotones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 5px;
+}
+
+/* Footer------------------------------------- */
+footer {
+    background-color: rgb(0, 50, 73);
+    color: white;
+    display: flex;
+    Align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p{
+    color: white;
+}
